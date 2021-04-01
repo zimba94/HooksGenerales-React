@@ -13,12 +13,13 @@ import ReactDOM from 'react-dom';
 //import { Layout } from './components/05-useLayoutEffect/Layout';
 //import { Memorize } from './components/06-memos/Memorize';
 // import { Padre } from './components/07-tarea-memo/Padre'
-import { ToDoApp } from './components/08-useReducer/ToDoApp';
+// import { ToDoApp } from './components/08-useReducer/ToDoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 import './index.css';
 
 ReactDOM.render(
   // <HooksApp />,
-  <ToDoApp />,
+  <MainApp />,
   document.getElementById('root')
 );
 
