@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const TodoListItem = ({todo, i, handleDelete, handleToggle}) => {
     return (
